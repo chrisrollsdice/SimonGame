@@ -1,0 +1,29 @@
+/**
+* Style for Simon, a memory game.
+**/
+body {
+  background-color: black;
+  font-family: sans-serif;
+  color:white;
+}
+h2 {
+  display: inline;
+}
+p {
+  display: inline;
+  margin-left: 10px;
+}
+p.message {
+  font-style: italic;
+}
+button {
+  border: none;
+  transition-duration: 0.1s;
+}
+p.bold {
+  font-style: bold;
+}
+button.game {
+  margin: none;
+  padding: none;
+}
