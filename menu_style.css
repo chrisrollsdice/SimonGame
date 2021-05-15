@@ -1,0 +1,147 @@
+/**
+* Style for Simon, a memory game.
+**/
+body {
+  background-color: black;
+  font-family: sans-serif;
+  color:white;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+table {
+  text-align: center;
+}
+td.info {
+ text-align: center;
+ width:50vw;
+}
+p.special {
+  display: inline;
+  margin-left: 10px;
+}
+p.message {
+  font-style: italic;
+}
+button {
+  transition-duration: 0.1s;
+}
+p.bold {
+  font-style: bold;
+}
+button.game {
+  border: none;
+  width: 8vw;
+  height: 8vh;
+  margin: none;
+  padding: none;
+}
+button.a {
+  background-color:green;
+}
+button.b {
+  background-color: darkred;
+}
+button.c {
+  background-color: darkblue;
+}
+button.d {
+  background-color:goldenrod;
+}
+button.e {
+  background-color:darkorchid;
+}
+button.f {
+  background-color:darkolivegreen;
+}
+button.g {
+  background-color:darkcyan;
+}
+button.h {
+  background-color:darkslateblue;
+}
+button.i {
+  background-color:darkorange;
+}
+button.j {
+  background-color:palevioletred;
+}
+button.k {
+  background-color:lime;
+}
+button.l {
+  background-color:coral;
+}
+button.m {
+  background-color:royalblue;
+}
+button.a:active {
+  background-color:limegreen;
+}
+button.b:active {
+  background-color: red;
+}
+button.c:active {
+  background-color: blue;
+}
+button.d:active {
+  background-color:yellow;
+}
+button.e:active {
+  background-color:orchid;
+}
+button.f:active {
+  background-color:olive;
+}
+button.g:active {
+  background-color:cyan;
+}
+button.h:active {
+  background-color:slateblue;
+}
+button.i:active {
+  background-color:orange;
+}
+button.j:active {
+  background-color:lightpink;
+}
+button.k:active {
+  background-color:palegreen;
+}
+button.l:active {
+  background-color:lightcoral;
+}
+button.m:active {
+  background-color:lightblue;
+}
+
+button.play {
+  width: 10rem;
+  height: 7rem;
+  font-size: 2rem;
+  border-width: .5rem;
+  border-color: white;
+  background-color: black;
+  color:white;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.content {
+  min-height: 100%;
+}
+.content-inside {
+  padding: 20px;
+  padding-bottom: 50px;
+}
+.footer {
+  height: 50px;
+  margin-top: -50px;
+}
