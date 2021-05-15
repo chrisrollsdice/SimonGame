@@ -1,0 +1,59 @@
+/**
+* Style for Simon, a memory game.
+**/
+body {
+  background-color: black;
+  font-family: sans-serif;
+}
+h2 {
+  display: inline;
+  color: white;
+}
+p {
+  display: inline;
+  color: white;
+  margin-left: 10px;
+}
+p.message {
+  font-style: italic;
+}
+button {
+  border: none;
+  transition-duration: 0.1s;
+}
+p.bold {
+  font-style: bold;
+}
+button.game {
+  width: 40vw;
+  height: 40vh;
+  margin: none;
+  padding: none;
+}
+/** 
+Controls the color of buttons when pressed and unpressed.
+**/
+button.greenButton {
+  background-color: green;
+}
+button.redButton {
+  background-color: darkred;
+}
+button.blueButton {
+  background-color: darkblue;
+}
+button.yellowButton {
+  background-color: goldenrod;
+}
+button.greenButton.active {
+  background-color: limegreen;
+}
+button.redButton.active {
+  background-color: red;
+}
+button.blueButton.active {
+  background-color: blue;
+}
+button.yellowButton.active {
+  background-color: gold;
+}
