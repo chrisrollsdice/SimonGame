@@ -145,3 +145,8 @@ html, body {
   height: 50px;
   margin-top: -50px;
 }
+.center {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}

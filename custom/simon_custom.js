@@ -147,6 +147,9 @@ function generateButtons() {
       let color = colors[colorI];
       colors.splice(colorI, 1);
       color = tinycolor(color);
+      if (color.darken().toString () == "rgb(0, 0, 0)"){
+        color = color.lighten();
+      }
 
       let bttn = new Button (
         button,
